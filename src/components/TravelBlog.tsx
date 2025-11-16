@@ -1,10 +1,10 @@
 import { MapPin } from "lucide-react";
 import { Button } from "./ui/button";
-import parisImg from "@/assets/paris.jpg";
-import tokyoImg from "@/assets/tokyo.jpg";
-import romeImg from "@/assets/rome.jpg";
-import santoriniImg from "@/assets/santorini.jpg";
-import baliImg from "@/assets/bali.jpg";
+import agraImg from "@/assets/agra.jpg";
+import goaImg from "@/assets/goa.jpg";
+import jaipurImg from "@/assets/jaipur.jpg";
+import keralaImg from "@/assets/kerala.jpg";
+import ladakhImg from "@/assets/ladakh.jpg";
 
 interface TravelBlogProps {
   onNext: () => void;
@@ -12,39 +12,39 @@ interface TravelBlogProps {
 
 const destinations = [
   {
-    id: "paris",
-    name: "Paris",
-    country: "France",
-    image: parisImg,
-    description: "The City of Light beckons with its iconic Eiffel Tower, world-class museums, and charming cafés. Experience the romance of strolling along the Seine, marvel at Notre-Dame's Gothic architecture, and indulge in exquisite French cuisine.",
+    id: "agra",
+    name: "Agra",
+    country: "Uttar Pradesh",
+    image: agraImg,
+    description: "Home to the magnificent Taj Mahal, a UNESCO World Heritage Site and symbol of eternal love. Marvel at the white marble monument, explore the grand Agra Fort, and immerse yourself in Mughal history and architecture.",
   },
   {
-    id: "tokyo",
-    name: "Tokyo",
-    country: "Japan",
-    image: tokyoImg,
-    description: "A mesmerizing blend of ultra-modern and traditional, Tokyo offers neon-lit streets, ancient temples, and culinary excellence. Witness the serenity of cherry blossoms in spring and immerse yourself in the unique culture.",
+    id: "goa",
+    name: "Goa",
+    country: "India",
+    image: goaImg,
+    description: "India's beach paradise offers golden sands, vibrant nightlife, and Portuguese heritage. Experience water sports, explore spice plantations, visit historic churches, and savor fresh seafood in this tropical haven.",
   },
   {
-    id: "rome",
-    name: "Rome",
-    country: "Italy",
-    image: romeImg,
-    description: "Walk through history in the Eternal City, where ancient ruins stand beside Renaissance masterpieces. The Colosseum, Vatican City, and Trevi Fountain await your discovery, alongside incredible Italian gelato.",
+    id: "jaipur",
+    name: "Jaipur",
+    country: "Rajasthan",
+    image: jaipurImg,
+    description: "The Pink City enchants with majestic palaces, historic forts, and royal heritage. Discover the Hawa Mahal, Amber Fort, and City Palace. Shop for traditional handicrafts and experience authentic Rajasthani culture.",
   },
   {
-    id: "santorini",
-    name: "Santorini",
-    country: "Greece",
-    image: santoriniImg,
-    description: "Perched on volcanic cliffs, Santorini's white-washed buildings and blue-domed churches create a postcard-perfect scene. Enjoy stunning sunsets, crystal-clear waters, and authentic Greek hospitality.",
+    id: "kerala",
+    name: "Kerala",
+    country: "India",
+    image: keralaImg,
+    description: "God's Own Country welcomes you with serene backwaters, lush hill stations, and Ayurvedic wellness. Cruise on traditional houseboats, explore tea plantations, witness Kathakali dance, and rejuvenate your soul.",
   },
   {
-    id: "bali",
-    name: "Bali",
-    country: "Indonesia",
-    image: baliImg,
-    description: "The Island of Gods offers lush rice terraces, ancient temples, and pristine beaches. Experience spiritual wellness, vibrant culture, and warm tropical paradise that will rejuvenate your soul.",
+    id: "ladakh",
+    name: "Ladakh",
+    country: "Jammu & Kashmir",
+    image: ladakhImg,
+    description: "A high-altitude desert of breathtaking beauty with snow-capped peaks and ancient monasteries. Experience adventure on mountain passes, witness crystal-clear lakes, and discover Buddhist culture in this mystical land.",
   },
 ];
 

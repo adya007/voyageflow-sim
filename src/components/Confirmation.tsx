@@ -1,6 +1,6 @@
 import { Check, Home, Mail, Phone } from "lucide-react";
 import { Button } from "./ui/button";
-import heroImg from "@/assets/hero-travel.jpg";
+import heroImg from "@/assets/hero-india.jpg";
 
 interface ConfirmationProps {
   onStartOver: () => void;
@@ -35,7 +35,7 @@ export const Confirmation = ({ onStartOver }: ConfirmationProps) => {
           </h1>
           
           <p className="text-xl text-white/90 mb-8 animate-in slide-in-from-bottom duration-700 delay-100">
-            Thank you for choosing VoyageFlow. Your travel experience has been successfully simulated.
+            Thank you for choosing to explore Incredible India. Your travel experience has been successfully simulated.
             We'll be in touch soon with your itinerary details.
           </p>
 
@@ -87,7 +87,7 @@ export const Confirmation = ({ onStartOver }: ConfirmationProps) => {
           {/* Footer */}
           <div className="mt-16 pt-8 border-t border-white/20">
             <p className="text-white/70 text-sm">
-              © 2024 VoyageFlow. Crafting unforgettable travel experiences.
+              © 2024 VoyageFlow. Crafting unforgettable Indian travel experiences.
             </p>
           </div>
         </div>

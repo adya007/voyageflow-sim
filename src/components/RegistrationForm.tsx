@@ -91,9 +91,9 @@ export const RegistrationForm = ({ onSuccess }: RegistrationFormProps) => {
         <div className="max-w-md w-full">
           <div className="text-center mb-8">
             <h1 className="text-4xl font-bold mb-3 bg-gradient-hero bg-clip-text text-transparent">
-              Welcome to VoyageFlow
+              Discover Incredible India
             </h1>
-            <p className="text-muted-foreground">Start your journey with us</p>
+            <p className="text-muted-foreground">Begin your Indian adventure with us</p>
           </div>
 
           <div className="bg-card rounded-2xl shadow-md p-8">
