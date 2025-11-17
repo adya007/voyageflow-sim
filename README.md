@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/696473ee-295b-4f53-8c40-f6b65f683e8a
+**URL**: https://voyageflow-sim.lovable.app
 
 ## How can I edit this code?
 
